@@ -1,0 +1,93 @@
+ body{
+    font-family: sans-serif;
+    background-color: black;
+}
+
+#container{
+    height: 650px;
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("https://hdqwalls.com/wallpapers/background-texture-wallpaper.jpg");
+    width: 1000px;
+    margin: 25px auto;
+}
+
+#calculator{
+    height: 550px;
+    width: 350px;
+    margin: 0px auto;
+    top: 30px;
+    background-color: gainsboro;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2) 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#result{
+    height: 150px;
+}
+
+#history{
+    text-align: right;
+    height: 20px;
+    margin: 0 20px;
+    padding-top: 15px;
+    font-size: 18px;
+    color: rgb(168, 166, 164);
+}
+
+#output{
+    text-align: right;
+    padding-top: 5px;
+    margin:10px 20px;
+    height:40px;
+    font-size: 30px; ;
+}
+
+
+#keyboard{
+    height: 400px;
+}
+.operator, .number, .empty{
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    float: left;
+    border-radius: 50%;
+    border-width: 0px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.number, .empty{
+    background-color: gainsboro;
+}
+.number, .operator{
+    cursor: pointer;
+}
+.operator:active, .number:active{
+    font-size: 13px;
+}
+.operator:focus, .number:focus, .empty:focus{
+    outline: 0;
+}
+button:nth-child(4){
+    font-size: 20px;
+    background-color: aqua;
+}
+button:nth-child(8){
+    font-size: 20px;
+    background-color: #9477af ;
+}
+button:nth-child(12){
+    font-size: 20px;
+    background-color: rgb(252, 213, 87);
+}
+button:nth-child(16){
+    font-size: 20px;
+    background-color: rgb(240, 155, 228);
+}
+button:nth-child(20){
+    font-size: 20px;
+    background-color: rgb(207, 226, 136);
+}
+
+
